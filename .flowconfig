@@ -1,0 +1,17 @@
+[ignore]
+
+[include]
+./src
+./tests
+
+[libs]
+./flow-typed
+
+[lints]
+
+[options]
+
+[strict]
+
+[version]
+0.66.0
