@@ -23,17 +23,16 @@ const opts = {
     disallow: handleDisallow,
 };
 
-app.use(ssl());
+app.use(ssl(opts));
 ```
 
 The function takes an optional object of options:
 
-* `disabled`: (default `false`) If `true`, this middleware will allow all
-  requests through.
-* `trustProxy`: (default `false`) If `true`, trust the `x-forwarded-proto`
-  header. If it is "https", requests are allowed through.
-* `disallow`: A non-Generator function called with the Koa context so that the
-  user can handle rejecting non-SSL requests themselves.
+|Option|Type|Default value|Description|
+|:-----|:---|:------------|:----------|
+|disabled|`boolean`|`false`|If `true`, this middleware will allow all requests through.|
+|trustProxy|`boolean`|`false`|If `true`, trust the `x-forwarded-proto` header. If it is "https", requests are allowed through.|
+|disallow|`(ctx: Context) => any`|`undefined`|A function called with the Koa context so that the user can handle rejecting non-SSL requests themselves.|
 
 By default, this middleware will only run when `process.env.NODE_ENV` is set to
 "production". Unless a `disallow` function is supplied it will respond with the
