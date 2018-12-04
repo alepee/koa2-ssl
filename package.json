@@ -18,7 +18,10 @@
     "node": "^7.6"
   },
   "homepage": "https://github.com/alepee/koa2-ssl",
-  "keywords": ["ssl", "koa2"],
+  "keywords": [
+    "ssl",
+    "koa2"
+  ],
   "license": "MIT",
   "main": "index.js",
   "repository": {
