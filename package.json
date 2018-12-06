@@ -1,7 +1,7 @@
 {
   "name": "koa2-ssl",
   "description": "Enforce SSL for koa apps",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "author": "Antoine Lépée",
   "bugs": {
     "url": "https://github.com/alepee/koa2-ssl/issues"
@@ -20,10 +20,11 @@
   "homepage": "https://github.com/alepee/koa2-ssl",
   "keywords": [
     "ssl",
-    "koa2"
+    "koa2",
+    "middleware"
   ],
   "license": "MIT",
-  "main": "index.js",
+  "main": "./lib/index.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/alepee/koa2-ssl"
