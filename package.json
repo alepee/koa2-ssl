@@ -1,8 +1,8 @@
 {
   "name": "koa2-ssl",
   "description": "Enforce SSL for koa apps",
-  "version": "1.0.3",
-  "author": "Antoine Lépée",
+  "version": "1.0.4",
+  "author": "Antoine Lépée <alepee@gmail.com>",
   "bugs": {
     "url": "https://github.com/alepee/koa2-ssl/issues"
   },
