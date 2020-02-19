@@ -2,14 +2,13 @@ version: 2
 
 jobs:
   build:
-    working_directory: ~/vitaminjs
     docker:
-      - image: circleci/node:7.7
+      - image: circleci/node:8
     steps:
       - checkout
       - run:
           name: Dependencies
-          command: npm install
+          command: npm ci
       - run:
           name: Tests
           command: npm run test
