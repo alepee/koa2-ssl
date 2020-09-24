@@ -1,7 +1,7 @@
 {
   "name": "koa2-ssl",
   "description": "Enforce SSL for koa apps",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "author": "Antoine Lépée <alepee@gmail.com>",
   "bugs": {
     "url": "https://github.com/alepee/koa2-ssl/issues"
@@ -16,7 +16,7 @@
     "node-fetch": "^2.0.0"
   },
   "engines": {
-		"node": ">=8"
+    "node": ">=8"
   },
   "homepage": "https://github.com/alepee/koa2-ssl",
   "keywords": [
