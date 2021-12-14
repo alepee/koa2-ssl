@@ -1,6 +1,6 @@
 # koa2-ssl
 
-[![Circle CI](https://circleci.com/gh/alepee/koa2-ssl.svg?style=svg)](https://circleci.com/gh/alepee/koa2-ssl)
+![Test](https://github.com/alepee/koa2-ssl/actions/workflows/npm-test.yml/badge.svg)
 [![Known Vulnerabilities](https://snyk.io/test/github/alepee/koa2-ssl/badge.svg?targetFile=package.json)](https://snyk.io/test/github/alepee/koa2-ssl?targetFile=package.json)
 
 koa2-ssl enforces SSL for [Koa 2][koa] apps.
