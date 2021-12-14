@@ -16,7 +16,7 @@
     "node-fetch": "^2.0.0"
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=10"
   },
   "homepage": "https://github.com/alepee/koa2-ssl",
   "keywords": [
