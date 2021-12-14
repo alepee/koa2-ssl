@@ -1,7 +1,7 @@
 # koa2-ssl
 
 ![Test](https://github.com/alepee/koa2-ssl/actions/workflows/npm-test.yml/badge.svg)
-[![Known Vulnerabilities](https://snyk.io/test/github/alepee/koa2-ssl/badge.svg?targetFile=package.json)](https://snyk.io/test/github/alepee/koa2-ssl?targetFile=package.json)
+![CodeQL](https://github.com/alepee/koa2-ssl/actions/workflows/codeql-analysis.yml/badge.svg)
 
 koa2-ssl enforces SSL for [Koa 2][koa] apps.
 
