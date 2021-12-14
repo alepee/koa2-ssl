@@ -1,5 +1,6 @@
 # koa2-ssl
 
+![NPM build](https://img.shields.io/npm/v/koa2-ssl.svg)
 ![Test](https://github.com/alepee/koa2-ssl/actions/workflows/npm-test.yml/badge.svg)
 ![CodeQL](https://github.com/alepee/koa2-ssl/actions/workflows/codeql-analysis.yml/badge.svg)
 
